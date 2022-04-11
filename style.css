@@ -159,3 +159,134 @@
   animation-name: father;
   animation-duration: 4s;
 }
+@keyframes bgc5 {
+  from {
+    width: 30px;
+  }
+  to {
+    width: 100px;
+  }
+}
+#mydiv5 {
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+  animation-name: bgc5;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes bgc6 {
+  0% {
+    width: 10px;
+  }
+  25% {
+    width: 70px;
+  }
+  50% {
+    width: 30px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+#mydiv6 {
+  background-color: chocolate;
+  width: 10px;
+  height: 10px;
+  animation-name: bgc6;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes dragon {
+  from {
+    filter: brightness(0);
+  }
+  to {
+    filter: brightness(1);
+  }
+}
+#goku {
+  animation-name: dragon;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes dragon2 {
+  from {
+    width: 80px;
+  }
+  to {
+    width: 150px;
+  }
+}
+
+#trunks {
+  animation-name: dragon2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes dragon3 {
+  0% {
+    filter: saturate(1);
+  }
+  25% {
+    filter: saturate(6);
+  }
+  50% {
+    filter: sepia(190%);
+  }
+  100% {
+    filter: sepia(0);
+  }
+}
+#goten {
+  animation-name: dragon3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes bgc7 {
+  from {
+    width: 20vw;
+    height: 20vh;
+    transform: translateX(0vw);
+  }
+  to {
+    width: 40vw;
+    height: 40vh;
+    transform: translateX(20vw);
+  }
+}
+#mydiv7 {
+  background-color: cyan;
+  height: 20vh;
+  width: 20vw;
+  animation-name: bgc7;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes bgc8 {
+  from {
+    height: 20vh;
+    width: 10vw;
+    transform: translateY(0vh);
+  }
+  to {
+    height: 30vh;
+    width: 20vw;
+    transform: translateY(40vh);
+  }
+}
+#mydiv8 {
+  background-color: blue;
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+  animation-name: bgc8;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
