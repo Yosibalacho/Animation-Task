@@ -131,7 +131,7 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-@keyframes father {
+@keyframes inuyasha {
   0% {
     filter: drop-shadow(15px 10px 1px yellow);
   }
@@ -145,18 +145,18 @@
     filter: drop-shadow(15px 10px 1px green);
   }
 }
-#yuyu2 {
+#inu2 {
   height: 30vh;
   width: 15vw;
 
   transition: all 4s;
 }
-#yuyu2:hover {
+#inu2:hover {
   height: 50vh;
   width: 30vw;
   filter: contrast(2);
 
-  animation-name: father;
+  animation-name: inuyasha;
   animation-duration: 4s;
 }
 @keyframes bgc5 {
